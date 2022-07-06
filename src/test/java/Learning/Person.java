@@ -1,4 +1,4 @@
-import io.opentelemetry.exporter.logging.SystemOutLogExporter;
+package Learning;
 
 public class Person {
     char fullName;
@@ -21,6 +21,6 @@ public class Person {
 
     public static void main(String[] args) {
        Person human1 = new Person();
- //      Person human2 = new Person(20,"Laboda");
+ //      Learning.Person human2 = new Learning.Person(20,"Laboda");
     }
 }

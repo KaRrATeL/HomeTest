@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package Learning;
 
 public class Phone {
     String model;

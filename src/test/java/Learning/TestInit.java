@@ -1,3 +1,5 @@
+package Learning;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -31,6 +33,10 @@ public class TestInit {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+    }
+    public void openAtb()
+    {
+        driver.get("https://zakaz.atbmarket.com");
     }
     public void zakaz2Start()
     {
